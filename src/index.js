@@ -16,4 +16,5 @@ app.use(function(req, res) {
     return res.status(404).send({error: 'Route not found'});
 });
 
-app.listen(8080);
+var porta = process.env.PORT || 8080; 
+app.listen(porta);
