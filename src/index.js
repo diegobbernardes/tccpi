@@ -16,4 +16,4 @@ app.use(function(req, res) {
     return res.status(404).send({error: 'Route not found'});
 });
 
-app.listen(3000);
+app.listen(8080);
