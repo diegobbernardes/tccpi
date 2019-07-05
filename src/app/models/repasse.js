@@ -19,6 +19,6 @@ const RepasseSchema = new mongoose.Schema({
     },
 });
 
-const Repasse = mongoose.model("Repasse",RepasseSchema, "repasse_bmg");
+const Repasse = mongoose.model("Repasse",RepasseSchema, "repasses");
 
 module.exports = Repasse;
